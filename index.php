@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!--Title-->
-  <title>Example Portfolio</title>
+  <title>Portoflio</title>
   <!--Bootstrap CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -27,19 +27,16 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#projects">Réalisations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact">Certifications</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <h1 id="name">John Doe</h1>
+    <h1 id="name">Arthur Manceau</h1>
     <h2 class="line-1 anim-typewriter">Aspiring Web Developer</h2>
   </div>
   <div id="about">
