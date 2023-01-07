@@ -4,23 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>PortfolioSIO</title>
     <link href="bootstrap-5.2.3-dist\css\bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="assets\images\icons2\planet.png"/>
 </head>
 
 <header>
-    <div class="loader-3">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-    </div>
-    <div class="container cont" style="padding-top: 10px;">
+    <div class=" cont" style="padding-top: 10px;">
         <div class="row"> 
-            <div class="col-6">
+            <div class="col-4">
                 <div class="row">
                     <div class="col-6">
                         <img class="img_header_p " src="assets\images\photo.jpg">
@@ -32,38 +25,22 @@
                     </div>
                 </div>    
             </div>   
-            <div class="col-6">
+            <div class="col-8">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-4">
+                        <a href="#doc" class="a_header">Réalisations</a>
                     </div>
                     <div class="col-4">
-                        <button type="button" class="rounded-pill bouton_white open">CONTACT</button>
+                        <a href="#veille"  class="a_header">Veille</a>
+                    </div>                
+                    <div class="col-4">
+                        <a href="#certif" class="a_header">Certifications</a>
                     </div>
                 </div> 
             </div>     
         </div>
         <div style="margin-top: 40px; text-align:center">
-            <div class="row">
-                <div class="col-2">
-                    <a href="#projet" class="a_header">Projets</a>
-                </div>
-                <div class="col-2">
-                    <a href="#doc" class="a_header">Documentations</a>
-                </div>
-                <div class="col-2">
-                    <a href="#veille"  class="a_header">Veille</a>
-                </div>
-                <div class="col-2">
-                    <a href="#apropos"  class="a_header">À propos</a>
-                </div>
-                
-                <div class="col-2">
-                    <a href="#certif" class="a_header">Certifications</a>
-                </div>
-                <div class="col-2">
-                    <a href="#cv" class="a_header">CV</a>
-                </div>
-            </div>
+            
         </div>
     
         <div class="row" style="margin-top:100px;">
@@ -173,8 +150,6 @@
     </div>
 </header>
     
-    <!--background:-->
-<div class="main"></div>
 <body>
     <div class="container cont reveal">
         <form method="POST">
@@ -410,334 +385,6 @@
             <div class="col-2"></div>
         </div>
     </div>
-
-    <div class="pusher" id="cv"></div>
-    <div class="container cont reveal">
-        <h2 class="title_container">Mon cv</h2>
-        <br>
-        <div class="row">
-            <div class="col-6">
-            <h3 class="centrer">Compétences</h3>
-                <div class="skills-bar">
-
-                    <div class="reveal cv_bar_content">
-
-                        <h3 class="title_cv" id="title_frontend">Front-end</h3>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>HTML</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>CSS</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>BOOTSTRAP</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="bootstrap"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>JAVASCRIPT</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="javascript"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>JAVA</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="java"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>PHP</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="php"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>Maquettage | Figma</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="maquette"></span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <br>
-
-                    <div class="reveal cv_bar_content">
-
-                        <h3 class="title_cv" id="title_backend">Back-end</h3>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>PHP7-PHP8</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="be phpversion"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>MySQL</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="be mysql"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="reveal cv_bar_content">
-
-                        <h3 class="title_cv" id="title_reseau">Réseau</h3>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>OS</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="re os"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>Adressage IP</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="re ip"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>Virtualisation</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="re vm"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="reveal cv_bar_content">
-
-                        <h3 class="title_cv" id="title_langue">Langues</h3>
-
-                        <div class="bar">
-                            <div class="info">
-                                <p>ANGLAIS : <span style="color:#e24a68;">B2</span></p>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <p>ESPAGNOL : <span style="color:#e24a68;">B1</span></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-6">
-                <h3 class="centrer">Parcours</h3>
-                <br>
-                <ul>
-                    <li class="reveal" style="--accent-color:#41516C">
-                        <div class="date">Juin 2015</div>
-                        <div class="title">Stage 3e</div>
-                        <div class="descr">CAO de pièce à embarquer • Thalès (Fleury-les-Aubrais, 45400)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#FBCA3E">
-                        <div class="date">2017-2020</div>
-                        <div class="title">BAC S</div>
-                        <div class="descr">Bac scientifique, Lycée Jacques Monod (Saint-Jean-de-Braye, 45800)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#E24A68">
-                        <div class="date">2020-2021</div>
-                        <div class="title">IUT Chimie</div>
-                        <div class="descr">Université Le Mans, première année (Le Mans, 7200)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#4CADAD">
-                        <div class="date">Juillet 2022</div>
-                        <div class="title">Cueillette de cerise</div>
-                        <div class="descr">Collecte des cerises, les Vergers de Lanvier (Mareau aux Près, 45370)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#9B59B6">
-                        <div class="date">Novembre 2022</div>
-                        <div class="title">Nuit De l'Info</div>
-                        <div class="descr">Concours de nuit national de développement web en équipe (Orléans, 45000)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#E67E22">
-                        <div class="date">Décembre 2022</div>
-                        <div class="title">Régional WordSkills</div>
-                        <div class="descr">Concours régional de développement web (Olympiade des métiers) (Orléans, 45000)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#1B5F8C">
-                        <div class="date">2021-2023</div>
-                        <div class="title">BTS SIO</div>
-                        <div class="descr">Lycée Saint-Paul-Bourdon-Blanc (Orléans, 45000)</div>
-                    </li>     
-                </ul> 
-            </div>              
-        </div> 
-        <div class="row" id="hobbies">
-            <br>
-            <div class="col-3 img_hobbies">
-                <!--Football-->
-                <img src="assets\images\icons2\foot.png" alt="Ballon" height="50" width="50">
-                <p></p>
-            </div>
-            <div class="col-3 img_hobbies">
-                <!--Musculation-->
-                <img class="" src="assets\images\icons2\haltere.png" alt="Haltère" height="50" width="50">
-                <p></p>
-            </div>
-            <div class="col-3 img_hobbies">
-                <!--Dessin-->
-                <img src="assets\images\icons2\peinture.png" alt="Palette" height="50" width="50">
-            </div>
-            <div class="col-3 img_hobbies">
-                <!--Jeux vidéos-->
-                <img src="assets\images\icons2\manette.png" alt="Manette" height="50" width="50">
-            </div>
-        </div>
-    </div>
-
-    <div class="popup" id="popup">
-        <form class="container" id="container">
-            <div class="row" id="row">
-                <div class="col-6" style="background-color: white;padding-bottom: 15px; color:black">
-                    <div style="margin-left:20px;">
-
-                    <div class="row" id="header_popup">
-                        <div class="col-6">
-                            <img class="img_popup " src="assets\images\photo.jpg">
-                        </div>
-                        <div class="col-6" id="header_text_popup">
-                            <p style="font-weight: bold; font-size: 15px;margin-top: 10px;">Arthur</p>
-                            <p style="font-weight: bold; font-size: 15px; margin-top: -20px;">MANCEAU</p>
-                            <p style="font-size: 12px; margin-top: -20px;">BTS SIO</p>                        
-                        </div>
-                    </div>
-
-
-
-                        <h2 style="margin-top:10px; color:black">CONTACT</h2>
-                        <h4 style="font-size: 15px;color:black ">APPELEZ-MOI OU ENVOYEZ-MOI UN MAIL</h4>
-                        <br>
-                        
-                        <div class="pop_up_text">
-                            <p>Si mon profil vous intéresse ou bien vous souhaitez plus d'information à mon sujet,  
-                            n'hésitez pas à me contacter via mon adresse email, mon numéro ou mes réseaux sociaux ci-dessous.</p>
-                        </div>
-                        
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                        </svg> 01 02 03 04 05
-                        <br>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
-                        </svg> arthur.manceau1@outlook.fr
-
-                        <br>
-                        <br>
-
-                        <div>
-                            <a href="https://www.linkedin.com/in/arthur-manceau-474671230/">
-                                <img width="35" height="35" style="margin-left: 5px;" src="assets\images\icons2\linkedin2.png">
-                            </a>
-
-                            <a href="https://twitter.com/armanceau">
-                                <img width="35" height="35" style="margin-left: 5px;" src="assets\images\icons2\twitter3.png">
-                            </a> 
-                            <a href="https://www.root-me.org/arrthur2?inc=info&lang=fr">
-                                <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-                                <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" x="0px" y="0px" viewBox="0 0 595.3 595.3" style="enable-background:new 0 0 595.3 595.3;" xml:space="preserve" id="svg72" sodipodi:docname="logo_rm_noir.svg" inkscape:version="0.92.2 2405546, 2018-03-11"  width="37" height="37"><metadata id="metadata78"/><defs id="defs76">
-                                    </defs>
-                                <style type="text/css" id="style2">
-                                    .st0{fill:#9D9D9C;}
-                                    .st1{fill:#575756;}
-                                </style>
-                                <g id="Calque_2">
-                                </g>
-                                <g id="g13" transform="matrix(1.8928864,0,0,1.8928864,-264.72593,-165.92773)">
-                                        <path inkscape:connector-curvature="0" id="path5" d="m 299.2,319.9 c 0,0 0,0 0,0 -0.1,-0.1 -0.2,-0.2 -0.2,-0.3 -0.1,-0.1 -0.1,-0.1 -0.2,-0.2 0,0 0,0 0,0 -0.1,0 -0.1,-0.1 -0.2,-0.1 -0.1,-0.1 -0.2,-0.1 -0.3,-0.2 -0.1,0 -0.2,-0.1 -0.3,-0.1 -0.1,0 -0.2,-0.1 -0.2,-0.1 -0.1,0 -0.2,0 -0.3,-0.1 -0.1,0 -0.2,0 -0.3,0 -0.1,0 -0.2,0 -0.3,0 -0.1,0 -0.2,0 -0.3,0 -0.1,0 -0.2,0 -0.3,0 -0.1,0 -0.2,0 -0.3,0.1 -0.1,0 -0.2,0.1 -0.2,0.1 -0.1,0 -0.2,0.1 -0.3,0.1 -0.1,0 -0.2,0.1 -0.3,0.2 -0.1,0 -0.1,0.1 -0.2,0.1 0,0 0,0 0,0 -0.1,0.1 -0.1,0.1 -0.2,0.2 -0.1,0.1 -0.2,0.2 -0.2,0.2 0,0 0,0 0,0 l -8.1,10.1 c -1,1.3 -0.8,3.1 0.5,4.1 0.5,0.4 1.2,0.6 1.8,0.6 0.9,0 1.7,-0.4 2.3,-1.1 l 0.1,-0.1 c 3,-3.7 8.6,-3.7 11.5,0 l 0.1,0.1 c 0.6,0.7 1.4,1.1 2.3,1.1 0.6,0 1.3,-0.2 1.8,-0.6 1.3,-1 1.5,-2.9 0.5,-4.1 z"/>
-                                        <path inkscape:connector-curvature="0" id="path7" d="m 285.7,149.1 c -4.1,0 -7.5,3.2 -7.7,7.3 l -15.3,5.6 c -0.8,0.3 -1.4,1 -1.4,1.9 v 9.7 H 249 c -0.9,-3.3 -3.8,-5.7 -7.4,-5.7 -4.2,0 -7.7,3.4 -7.7,7.7 0,4.2 3.4,7.7 7.7,7.7 3.6,0 6.5,-2.4 7.4,-5.7 h 14.3 c 1.1,0 2,-0.9 2,-2 v -10.3 l 13.5,-5 c 1.3,2.5 3.9,4.2 6.8,4.2 4.2,0 7.7,-3.4 7.7,-7.7 0.1,-4.2 -3.4,-7.7 -7.6,-7.7 z"/>
-                                        <path style="fill:#9d9d9c" inkscape:connector-curvature="0" id="path9" d="m 269.5,292.3 c -2.5,-0.9 -4.9,-1.8 -7.2,-2.8 -1.7,-0.8 -3.4,-1.6 -5,-2.4 3.8,3.8 13,10.6 22.9,10.8 0.6,-0.7 1.1,-1.4 1.5,-2.3 -1.5,-0.3 -3,-0.6 -4.5,-1 -2.7,-0.7 -5.2,-1.4 -7.7,-2.3 z" class="st0"/>
-                                        <path inkscape:connector-curvature="0" id="path11" d="m 395,222.5 c 0,-4.7 -0.3,-9.4 -1,-13.9 0,-0.3 -0.1,-0.6 -0.1,-0.9 -6.1,-39.7 -36.2,-72.3 -75.8,-81 -1,-4.5 -5,-7.9 -9.8,-7.9 -5.6,0 -10.1,4.5 -10.1,10.1 0,4.8 3.4,8.8 7.9,9.8 v 36.9 c 0,0.6 0.3,1.2 0.8,1.6 0.3,0.2 0.7,0.3 1.1,0.3 0.2,0 0.5,0 0.7,-0.1 l 14.8,-5.6 c 1,1.5 2.5,2.5 4.3,3 v 17.4 c -7.5,9.2 -16.8,17.5 -26.7,24.9 l -11.3,-26.2 c 2.1,-1.4 3.5,-3.7 3.5,-6.4 0,-4.2 -3.4,-7.7 -7.7,-7.7 -4.2,0 -7.7,3.4 -7.7,7.7 0,4.2 3.4,7.7 7.7,7.7 0.1,0 0.3,0 0.4,0 l 11.8,27.3 c -6.9,5 -14,9.5 -21,13.6 L 243.2,223 c -0.4,-0.1 -0.8,-0.1 -1.2,0.1 l -10,3.9 c -1.4,-1.9 -3.6,-3.1 -6.2,-3.1 -4.2,0 -7.7,3.4 -7.7,7.7 0,4.2 3.4,7.7 7.7,7.7 4.2,0 7.7,-3.4 7.7,-7.7 0,-0.3 -0.1,-0.6 -0.1,-0.9 l 9.4,-3.7 29.3,8.8 c -25,14 -47.4,22.1 -51.1,23.4 l -1.8,0.6 c -1.6,-1.2 -3.6,-1.9 -5.8,-1.9 -0.1,0 -0.2,0 -0.3,0 -4.7,-11.1 -7.1,-23.2 -7.1,-35.3 0,-6 0.6,-11.9 1.7,-17.6 h 43.9 c 0.9,3.3 3.8,5.7 7.4,5.7 4.2,0 7.7,-3.4 7.7,-7.7 0,-4.2 -3.4,-7.7 -7.7,-7.7 -3.6,0 -6.5,2.4 -7.4,5.7 h -43 c 8.1,-32.9 34.1,-59.2 67.7,-67 1.8,2.9 5,4.9 8.6,4.9 5.6,0 10.1,-4.5 10.1,-10.1 0,-5.6 -4.5,-10.1 -10.1,-10.1 -4.9,0 -8.9,3.5 -9.9,8 -44.1,10 -76.4,49.7 -76.4,95.7 0,13.1 2.6,26.2 7.7,38.2 -1.9,1.8 -3,4.4 -3,7.2 0,4.5 2.9,8.2 6.9,9.6 v 39.4 c 0,0.7 0.2,1.4 0.6,2 l 2.2,1.5 29.9,21.1 v 25.2 c 0,2.1 1.7,3.8 3.8,3.8 h 100 c 2.1,0 3.8,-1.7 3.8,-3.8 v -25.2 l 30,-21.1 2.2,-1.6 c 0.4,-0.6 0.6,-1.3 0.6,-2 V 277 c 3.7,-1.5 6.3,-5.1 6.3,-9.3 0,-2.6 -1,-5 -2.6,-6.8 5.3,-11.9 8,-25.1 8,-38.4 z M 281.4,125.6 c 0.9,-1 2.2,-1.6 3.6,-1.6 2.7,0 4.9,2.2 4.9,4.9 0,2.7 -2.2,4.9 -4.9,4.9 -1,0 -1.9,-0.3 -2.7,-0.8 -1.3,-0.9 -2.2,-2.4 -2.2,-4 0,-1.4 0.5,-2.6 1.3,-3.4 z m 22,3.2 c 0,-2.7 2.2,-4.9 4.9,-4.9 1.4,0 2.6,0.6 3.5,1.5 0.8,0.9 1.3,2 1.3,3.3 0,1.6 -0.8,3.1 -2.1,4 -0.8,0.6 -1.7,0.9 -2.8,0.9 -2.6,0.1 -4.8,-2.1 -4.8,-4.8 z m 18.8,38.5 c 0,0.3 0.1,0.5 0.1,0.7 l -12.2,4.6 v -34 c 3,-0.5 5.5,-2.3 6.9,-4.8 10.7,2.4 20.7,6.7 29.6,12.6 -0.1,14.8 -5.8,28.4 -14.8,40.7 v -12.4 c 3.3,-0.9 5.7,-3.8 5.7,-7.4 0,-4.2 -3.4,-7.7 -7.7,-7.7 -4.2,0.1 -7.6,3.5 -7.6,7.7 z M 213.5,272.7 c -1.2,0 -2.3,-0.5 -3.2,-1.2 -1,-0.9 -1.7,-2.2 -1.7,-3.6 0,-0.6 0.1,-1.2 0.3,-1.7 0.7,-1.8 2.5,-3.1 4.5,-3.1 0.9,0 1.7,0.3 2.4,0.7 1.4,0.8 2.4,2.4 2.4,4.2 0,0.9 -0.3,1.7 -0.7,2.4 -0.7,1.4 -2.2,2.3 -4,2.3 z m 170,-1.9 c -0.9,1.1 -2.3,1.9 -3.8,1.9 -1.4,0 -2.6,-0.6 -3.5,-1.5 -0.8,-0.9 -1.3,-2 -1.3,-3.3 0,-2.1 1.3,-3.9 3.2,-4.5 0.5,-0.2 1.1,-0.3 1.7,-0.3 2.3,0 4.3,1.7 4.8,3.9 0.1,0.3 0.1,0.6 0.1,1 -0.2,1 -0.6,2 -1.2,2.8 z m -3,-13 c -0.3,0 -0.6,0 -0.9,0 -5.6,0 -10.1,4.5 -10.1,10.1 0,4.3 2.7,8 6.6,9.4 v 36.8 l -31.5,22.2 c -1,0.7 -1.6,1.9 -1.6,3.1 v 21.2 c 0,1.2 -1,2.2 -2.2,2.2 h -11.7 c -1.2,0 -2.2,-1 -2.2,-2.2 V 353 c 0,-2 -1.4,-3.8 -3.4,-4 -2.3,-0.2 -4.2,1.6 -4.2,3.8 v 7.9 c 0,1.2 -1,2.2 -2.2,2.2 h -14.3 c -1.2,0 -2.2,-1 -2.2,-2.2 V 349 c 0,-2 -1.4,-3.8 -3.4,-4 -2.3,-0.2 -4.2,1.6 -4.2,3.8 v 12 c 0,1.2 -1,2.2 -2.2,2.2 h -14.3 c -1.2,0 -2.2,-1 -2.2,-2.2 V 353 c 0,-2 -1.4,-3.8 -3.4,-4 -2.3,-0.2 -4.2,1.6 -4.2,3.8 v 7.9 c 0,1.2 -1,2.2 -2.2,2.2 h -11.7 c -1.2,0 -2.2,-1 -2.2,-2.2 v -21.2 c 0,-1.2 -0.6,-2.4 -1.6,-3.1 L 217.6,314.2 V 277 c 3.5,-1.6 5.9,-5.1 5.9,-9.2 0,-0.6 -0.1,-1.2 -0.2,-1.8 4,-1.4 34.5,-12.3 64.5,-31 40.6,-25.3 63.1,-54 65.7,-83.5 17.5,14.1 29.6,34.5 33.1,57.4 -0.5,50.1 -87.8,81 -88.7,81.3 -0.2,0.1 -0.7,0.2 -1.1,0.4 -1.1,-0.2 -2.2,-0.4 -3.4,-0.6 -0.8,-0.2 -1.7,-0.3 -2.5,-0.5 -1.3,-0.2 -2.6,-0.5 -3.9,-0.8 -0.2,-0.1 -0.5,-0.1 -0.7,-0.1 -0.5,-0.1 -1,-0.2 -1.5,-0.3 -0.6,-0.1 -1.2,-0.3 -1.8,-0.4 -1.4,-0.3 -2.8,-0.6 -4.1,-1 -2.5,-0.6 -4.9,-1.3 -7.3,-1.9 -2.3,-0.7 -4.7,-1.3 -6.9,-2 -0.1,0 -0.1,0 -0.2,0 -1.7,-0.5 -3.3,-1 -4.9,-1.6 -0.5,-0.2 -1.1,-0.4 -1.6,-0.5 -0.8,-0.3 -1.5,-0.5 -2.2,-0.7 -1.3,-0.4 -2.5,-0.8 -3.6,-1.3 0,0 -0.1,0 -0.1,0 -1.8,-0.6 -3.4,-1.2 -4.8,-1.8 -1.5,-0.6 -2.8,-1.1 -3.8,-1.5 -1,-0.5 -1.9,-0.8 -2.4,-1.1 -0.6,-0.3 -0.9,-0.4 -0.9,-0.4 0,0 0.2,0.3 0.6,0.7 0.4,0.5 1,1.2 1.9,2 0.8,0.8 1.9,1.8 3.2,2.8 1.3,1 2.8,2.1 4.4,3.2 0,0 0,0 0.1,0 -0.6,2 -1,4.2 -1,6.4 0,11.5 9.4,20.9 20.9,20.9 8.9,0 16.5,-5.6 19.5,-13.5 1,0.1 2.1,0.2 3.1,0.3 1.8,0.1 3.5,0.1 5.1,0.1 0.1,0 0.2,0.1 0.3,0.1 l 16.9,17.2 c 4.3,4.3 11,5 16,1.7 l 26.4,-14.8 c 2.3,-1.5 3.8,-4.1 3.8,-6.9 v -30.4 c 10.2,-8.1 19.4,-17.7 25.4,-28.6 -1.1,7.9 -3.2,15.4 -6.3,22.5 z m -98.8,37.8 c -0.4,0.8 -1,1.6 -1.5,2.3 v 0 c -2.4,2.8 -6,4.6 -10,4.6 -4,0 -7.6,-1.8 -10,-4.6 -2,-2.3 -3.1,-5.3 -3.1,-8.5 0,-0.8 0.1,-1.5 0.2,-2.3 0,0 0,0 0,0 1.6,0.8 3.3,1.6 5,2.4 2.3,1 4.7,2 7.2,2.8 2.5,0.9 5.1,1.6 7.7,2.3 1.5,0.4 3,0.7 4.5,1 z"/>
-                                    </g>
-                                </svg>
-                            </a>                
-                        </div>
-
-                        <br>
-
-                        <div class="pop_up_text">
-                            <p>
-                                Vous pouvez aussi directement accéder à votre messagerie et m'envoyer un email en appuyant sur le bouton ci-dessous !
-                            </p>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-3">
-
-                            </div>
-                            <div class="col-4">
-                                <button type="button" class="rounded-pill bouton"><a href="mailto:arthur.manceau1@outlook.fr">EMAIL</a></button>
-                            </div>
-                            <div class="col-5">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6" id="image_popup" style="margin-left:-15px"> 
-                    <svg id="close" xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16" style="margin-left:420px; margin-top:10px;">
-                        <path class="close" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
-                    </svg>
-                </div>
-            </div> 
-        
-        </form>
-        
-    </div>
-    <a href="#" class="top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-        </svg>
-    </a>
 </body>
 <script src="script.js" async></script>
 </html>

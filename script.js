@@ -1,30 +1,3 @@
-setTimeout(()=> {
-  document.querySelector('.loader-3').style.display ="none"
-}, 1400);
-
-
-//popup :
-
-const boxes = document.querySelectorAll('.open');
-
-boxes.forEach(open => {
-  open.addEventListener('click', afficher);
-});
-
-let bclose = document.querySelector('#close');
-
-function afficher(){
-    document.querySelector('#popup').style.display="flex";
-}
-
-function masquer(){
-    document.querySelector('#popup').style.display="none";
-}
-
-bclose.addEventListener('click', masquer);
-
-document.addEventListener('keyup', (e)=>{if(e.key=='Escape') masquer()});
-
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
   
