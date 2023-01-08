@@ -197,21 +197,22 @@
                 </div>
                 <div class="col-3"></div>
             </div>
-            <h4>Gérer le patrimoine informatique</h4>
+            <h4>1. Gérer le patrimoine informatique</h4>
             <br>
-            <h4>Répondre aux incidents et aux demandes d'assistance et d'évolution</h4>
+            <h4>2. Répondre aux incidents et aux demandes d'assistance et d'évolution</h4>
             <br>
-            <h4>Développer la présence en ligne de l'organisation</h4>
+            <h4>3. Développer la présence en ligne de l'organisation</h4>
             <br>
-            <h4>Travailler en mode projet</h4>
+            <h4>4. Travailler en mode projet</h4>
             <br>
-            <h4>Mettre à disposition des utilisateurs un service informatique</h4>
+            <h4>5. Mettre à disposition des utilisateurs un service informatique</h4>
             <br>
-            <h4>Organiser son développement professionnel</h4>
+            <h4>6. Organiser son développement professionnel</h4>
             <br>
-            <h4>Tableau de synthèse</h4>
+            <h4>7. Tableau de synthèse</h4>
+            <img src="assets\documents\suivi-certification.xlsx" alt="">
             <br>
-            <h4>Attestations de stages</h4>
+            <h4>8. Attestations de stages</h4>
             <div class="row">
                 <div class="col-6">
                     <div class="card test" style="border-radius: 30px 30px 30px 30px;box-shadow: 10px 5px 5px gray;">
@@ -381,11 +382,48 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                 </svg>
-                VEILLE INFORMATIQUE
+                Veille informationnelle
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                 </svg>
             </h3>
+            <br>
+            <h4>1. Qu'est ce qu'une veille ?</h4>
+            <p class="presentation"> Une veille est une activité, un processus de surveillance qui consiste à récupérer de l'informations selon un secteur donné. 
+                Faire une veille est très important car il faut être à l'affût des dernières nouveautés,
+                et l'informatique étant un domaine qui évolue sans cesse. Il faut alors rester informer pour être à la pointe de son métier.
+            </p>
+            <h4>2. La veille permet :</h4>
+            <div class="row centrer">
+                <div class="col-1"></div>
+                <div class="col-2 veille_ex">
+                    Augmenter ses compétences
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2 veille_ex">
+                    Suivre les évolutions technologiques
+                </div>
+                <div class="col-1"></div>
+                <div class="col-2 veille_ex">
+                    Eviter les informations obsolètes
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <br>
+            <div class="row centrer">
+                <div class="col-1"></div>
+                <div class="col-3 veille_ex">
+                    Augmenter ses compétences
+                </div>
+                <div class="col-3 veille_ex">
+                    Suivre les évolutions technologiques
+                </div>
+                <div class="col-3 veille_ex">
+                    Eviter les informations obsolètes
+                </div>
+                <div class="col-1"></div>
+            </div>
+
             
             <!--Nouvelles technologies mise à jour framework
         
@@ -473,229 +511,6 @@
                 <a href="https://sway.office.com/6nVOgHEklTUFBkZa?ref=Link"><button type="button" class="rounded-pill bouton">MON SWAY</button></a>
             </div>
             <div class="col-2"></div>
-        </div>
-    </div>
-
-    <div class="pusher" id="cv"></div>
-    <div class="container cont reveal">
-        <h2 class="title_container">Mon cv</h2>
-        <br>
-        <div class="row">
-            <div class="col-6">
-            <h3 class="centrer">Compétences</h3>
-                <div class="skills-bar">
-
-                    <div class="reveal cv_bar_content">
-
-                        <h3 class="title_cv" id="title_frontend">Front-end</h3>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>HTML</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>CSS</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>BOOTSTRAP</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="bootstrap"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>JAVASCRIPT</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="javascript"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>JAVA</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="java"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>PHP</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="php"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>Maquettage | Figma</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="maquette"></span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <br>
-
-                    <div class="reveal cv_bar_content">
-
-                        <h3 class="title_cv" id="title_backend">Back-end</h3>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>PHP7-PHP8</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="be phpversion"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>MySQL</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="be mysql"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="reveal cv_bar_content">
-
-                        <h3 class="title_cv" id="title_reseau">Réseau</h3>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>OS</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="re os"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>Adressage IP</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="re ip"></span>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <span>Virtualisation</span>
-                            </div>
-                            <div class="progress-line">
-                                <span class="re vm"></span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br>
-
-                    <div class="reveal cv_bar_content">
-
-                        <h3 class="title_cv" id="title_langue">Langues</h3>
-
-                        <div class="bar">
-                            <div class="info">
-                                <p>ANGLAIS : <span style="color:#e24a68;">B2</span></p>
-                            </div>
-                        </div>
-
-                        <div class="bar">
-                            <div class="info">
-                                <p>ESPAGNOL : <span style="color:#e24a68;">B1</span></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-6">
-                <h3 class="centrer">Parcours</h3>
-                <br>
-                <ul>
-                    <li class="reveal" style="--accent-color:#41516C">
-                        <div class="date">Juin 2015</div>
-                        <div class="title">Stage 3e</div>
-                        <div class="descr">CAO de pièce à embarquer • Thalès (Fleury-les-Aubrais, 45400)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#FBCA3E">
-                        <div class="date">2017-2020</div>
-                        <div class="title">BAC S</div>
-                        <div class="descr">Bac scientifique, Lycée Jacques Monod (Saint-Jean-de-Braye, 45800)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#E24A68">
-                        <div class="date">2020-2021</div>
-                        <div class="title">IUT Chimie</div>
-                        <div class="descr">Université Le Mans, première année (Le Mans, 7200)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#4CADAD">
-                        <div class="date">Juillet 2022</div>
-                        <div class="title">Cueillette de cerise</div>
-                        <div class="descr">Collecte des cerises, les Vergers de Lanvier (Mareau aux Près, 45370)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#9B59B6">
-                        <div class="date">Novembre 2022</div>
-                        <div class="title">Nuit De l'Info</div>
-                        <div class="descr">Concours de nuit national de développement web en équipe (Orléans, 45000)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#E67E22">
-                        <div class="date">Décembre 2022</div>
-                        <div class="title">Régional WordSkills</div>
-                        <div class="descr">Concours régional de développement web (Olympiade des métiers) (Orléans, 45000)</div>
-                    </li>
-                    <li class="reveal" style="--accent-color:#1B5F8C">
-                        <div class="date">2021-2023</div>
-                        <div class="title">BTS SIO</div>
-                        <div class="descr">Lycée Saint-Paul-Bourdon-Blanc (Orléans, 45000)</div>
-                    </li>     
-                </ul> 
-            </div>              
-        </div> 
-        <div class="row" id="hobbies">
-            <br>
-            <div class="col-3 img_hobbies">
-                <!--Football-->
-                <img src="assets\images\icons2\foot.png" alt="Ballon" height="50" width="50">
-                <p></p>
-            </div>
-            <div class="col-3 img_hobbies">
-                <!--Musculation-->
-                <img class="" src="assets\images\icons2\haltere.png" alt="Haltère" height="50" width="50">
-                <p></p>
-            </div>
-            <div class="col-3 img_hobbies">
-                <!--Dessin-->
-                <img src="assets\images\icons2\peinture.png" alt="Palette" height="50" width="50">
-            </div>
-            <div class="col-3 img_hobbies">
-                <!--Jeux vidéos-->
-                <img src="assets\images\icons2\manette.png" alt="Manette" height="50" width="50">
-            </div>
         </div>
     </div>
 
