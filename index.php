@@ -198,29 +198,37 @@
                 <div class="col-3"></div>
             </div>
             <h4>Gérer le patrimoine informatique</h4>
+            <br>
             <h4>Répondre aux incidents et aux demandes d'assistance et d'évolution</h4>
+            <br>
             <h4>Développer la présence en ligne de l'organisation</h4>
+            <br>
             <h4>Travailler en mode projet</h4>
+            <br>
             <h4>Mettre à disposition des utilisateurs un service informatique</h4>
+            <br>
             <h4>Organiser son développement professionnel</h4>
+            <br>
+            <h4>Tableau de synthèse</h4>
+            <br>
             <h4>Attestations de stages</h4>
             <div class="row">
                 <div class="col-6">
                     <div class="card test" style="border-radius: 30px 30px 30px 30px;box-shadow: 10px 5px 5px gray;">
-                        <img src="" alt="" class="card-img-top" style="border-radius: 30px 30px 30px 30px;box-shadow: 10px 5px 5px gray;">
+                        <img src="assets\documents\doc_img\Astage1.PNG" alt="Attestation stage 1" class="card-img-top" style="border-radius: 30px 30px 30px 30px;box-shadow: 10px 5px 5px gray;">
                         <div>
                             <span>
-                                <div class="card overlay">
-                                    <h7 class="card-header" style="border-radius: 30px 30px 30px 30px;background-color: rgb(44, 44, 44); color:white;"></h7>
+                                <div class="card-body overlay">
+                                    <h7 class="card-header" style="border-radius: 30px 30px 30px 30px;background-color: rgb(44, 44, 44); color:white;">10 JUN 2022</h7>
                                     <br>
                                     <br>
                                     <div class="card-title row">
-                                        <div style="font-weight: bold"></div>
+                                        <div style="font-weight: bold">Stage Première Année</div>
                                     </div>
                                     <div class="row">;
                                         <div class="col-2"></div>;
                                         <div class="col-8">;
-                                            <a href=""><button type="button" class="rounded-pill bouton">Voir le projet</button></a>;
+                                            <a href="assets\documents\doc_pdf\MANCEAU_Arthur_Attestation_Stage1.pdf"><button type="button" class="rounded-pill bouton">Voir l'attestation</button></a>;
                                         </div>;
                                         <div class="col-2"></div>;
                                     </div>;
@@ -230,7 +238,31 @@
 
                     </div>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                    <div class="card test" style="border-radius: 30px 30px 30px 30px;box-shadow: 10px 5px 5px gray;">
+                        <img src="assets\documents\doc_img\Astage1.PNG" alt="Attestation stage 1" class="card-img-top" style="border-radius: 30px 30px 30px 30px;box-shadow: 10px 5px 5px gray;">
+                        <div>
+                            <span>
+                                <div class="card-body overlay">
+                                    <h7 class="card-header" style="border-radius: 30px 30px 30px 30px;background-color: rgb(44, 44, 44); color:white;">A CHANGER</h7>
+                                    <br>
+                                    <br>
+                                    <div class="card-title row">
+                                        <div style="font-weight: bold">Stage Seconde Année</div>
+                                    </div>
+                                    <div class="row">;
+                                        <div class="col-2"></div>;
+                                        <div class="col-8">;
+                                            <a href="assets\documents\doc_pdf\MANCEAU_Arthur_Attestation_Stage1.pdf"><button type="button" class="rounded-pill bouton">Voir l'attestation</button></a>;
+                                        </div>;
+                                        <div class="col-2"></div>;
+                                    </div>;
+                                </div>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
 
