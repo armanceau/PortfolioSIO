@@ -606,3 +606,42 @@ a:hover{
     padding-bottom: 5px;
     color: #fff;
 }
+
+/*ACCORDEON*/
+
+
+.container_accordeon{
+    background-color: #eee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banniere-titre{
+    margin-bottom: 1rem;
+}
+.accordeon{
+    width: 90%;
+    background-color: #3F51B5;
+    border: 1px solid #777;
+    font-size: 2rem;
+    color: #EEEDE7;
+}
+.question{
+    display: flex; /*permet de positionner <p> et <i>*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #777;
+}
+.reponse{
+    color: #777;
+    background-color: #eee;
+    padding: 3rem;
+    display: none;
+}
+.visible{
+    display: block;
+}

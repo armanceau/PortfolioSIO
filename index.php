@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="bootstrap-5.2.3-dist\css\bootstrap.css" rel="stylesheet">
+    <link href="bootstrap-5.2.3-dist\css\bootstrap.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link href="style.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="assets\images\icons2\planet.png"/>
 </head>
@@ -177,6 +178,47 @@
 <div class="main"></div>
 <body>
     <div class="container cont reveal">
+
+
+    <div class="container_accordeon">
+        <div class="banniere-titre">
+            <h1>
+               Questions Fréquentes
+            </h1>
+        </div>
+
+        <div class="accordeon">
+            <!-- Question 1 -->
+            <div class="question">
+                <h4>1. Gérer le patrimoine informatique</h4>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="reponse">
+                <p>réponse 1</p>
+            </div>
+            <!-- Ici Question 2 -->
+            <!-- Ici Question 3 -->
+
+            <div class="question">
+                <h4>2. Répondre aux incidents et aux demandes d'assistance et d'évolution</h4>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="reponse">
+                <p>réponse 2</p>
+            </div>
+            <div class="question">
+                <h4>3. Développer la présence en ligne de l'organisation</h4>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="reponse">
+                <p>réponse 3</p>
+            </div>
+        </div>
+
+
+
+    </div>
+
         <form method="POST">
             <div class="row">
                 <div class="col-3"></div>
@@ -592,5 +634,5 @@
         </svg>
     </a>
 </body>
-<script src="script.js" async></script>
+<script src="script.js"></script>
 </html>
