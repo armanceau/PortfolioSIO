@@ -234,6 +234,7 @@
             -->
             <br>
             <h4>7. Tableau de synthèse</h4>
+            <!-- Mettre Tableau de synthèse -->
             <img src="assets\documents\suivi-certification.xlsx" alt="">
             <br>
             <h4>8. Attestations de stages</h4>
