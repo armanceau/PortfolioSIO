@@ -198,16 +198,40 @@
                 <div class="col-3"></div>
             </div>
             <h4>1. Gérer le patrimoine informatique</h4>
+            <!-- Aucun -->
             <br>
             <h4>2. Répondre aux incidents et aux demandes d'assistance et d'évolution</h4>
+            <!-- 
+                                Stages 2023
+                LaFleur
+                BucketList ?
+                Workout 
+            -->
             <br>
             <h4>3. Développer la présence en ligne de l'organisation</h4>
+            <!-- 
+                Stages 2023
+                LaFleur
+                BucketList ?
+                Workout 
+            -->
             <br>
             <h4>4. Travailler en mode projet</h4>
+            <!-- 
+                Stages 2023
+                LaFleur
+                Workout 
+                Plusieurs doc
+            -->
             <br>
             <h4>5. Mettre à disposition des utilisateurs un service informatique</h4>
+            <!-- Doc OCS -->
             <br>
             <h4>6. Organiser son développement professionnel</h4>
+            <!-- 
+                Profil Linkedin
+                Profil Twitter  
+            -->
             <br>
             <h4>7. Tableau de synthèse</h4>
             <img src="assets\documents\suivi-certification.xlsx" alt="">
@@ -377,59 +401,7 @@
                     }
                 ?>
             </div>
-            <div class="pusher" id="veille"></div>
-            <h3 class="title_doc">
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg>
-                Veille informationnelle
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg>
-            </h3>
-            <br>
-            <h4>1. Qu'est ce qu'une veille ?</h4>
-            <p class="presentation"> Une veille est une activité, un processus de surveillance qui consiste à récupérer de l'informations selon un secteur donné. 
-                Faire une veille est très important car il faut être à l'affût des dernières nouveautés,
-                et l'informatique étant un domaine qui évolue sans cesse. Il faut alors rester informer pour être à la pointe de son métier.
-            </p>
-            <h4>2. La veille permet :</h4>
-            <div class="row centrer">
-                <div class="col-1"></div>
-                <div class="col-2 veille_ex">
-                    Augmenter ses compétences
-                </div>
-                <div class="col-1"></div>
-                <div class="col-2 veille_ex">
-                    Suivre les évolutions technologiques
-                </div>
-                <div class="col-1"></div>
-                <div class="col-2 veille_ex">
-                    Eviter les informations obsolètes
-                </div>
-                <div class="col-1"></div>
-            </div>
-            <br>
-            <div class="row centrer">
-                <div class="col-1"></div>
-                <div class="col-3 veille_ex">
-                    Augmenter ses compétences
-                </div>
-                <div class="col-3 veille_ex">
-                    Suivre les évolutions technologiques
-                </div>
-                <div class="col-3 veille_ex">
-                    Eviter les informations obsolètes
-                </div>
-                <div class="col-1"></div>
-            </div>
-
             
-            <!--Nouvelles technologies mise à jour framework
-        
-                https://www.lafermeduweb.net/tag/frameworks
-                https://www.lafermeduweb.net/tag/frontend
-
             -->
         </form>
         </div>
