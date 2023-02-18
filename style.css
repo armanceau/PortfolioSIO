@@ -612,7 +612,7 @@ a:hover{
 
 .container_accordeon{
     background-color: #eee;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -639,8 +639,8 @@ a:hover{
 .reponse{
     color: #777;
     background-color: #eee;
-    padding: 3rem;
-    display: none;
+    padding: 1rem;
+    display: none;    
 }
 .visible{
     display: block;
